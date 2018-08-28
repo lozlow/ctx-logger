@@ -1,0 +1,16 @@
+{
+  "name": "context-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "cuid": "^2.1.1",
+    "express": "^4.16.3"
+  }
+}
