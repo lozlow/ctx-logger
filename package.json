@@ -11,6 +11,7 @@
   "dependencies": {
     "cls-hooked": "^4.2.2",
     "cuid": "^2.1.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pino": "^7.8.1"
   }
 }

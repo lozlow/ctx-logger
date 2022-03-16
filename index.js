@@ -19,11 +19,12 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   logger.trace('ocd wow')
   logger.info('wow')
+  logger.context.newContext = '5'
   logger.warn('uh oh wow')
 
   doSummat().then(() => {
+    logger.info('done')
     res.end('done')
-    console.log('ctx', logger.context)
   })
 })
 
